@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import Previewer from 'virtual:vue-component-preview';
+import Preview from 'vite-plugin-vue-component-preview/client';
 
 const app = createApp(App);
-app.use(Previewer);
+app.use(Preview);
 app.mount('#app');

@@ -11,6 +11,7 @@
     "skipLibCheck": true,
     "allowJs": true,
     "lib": ["esnext", "dom"],
+    "incremental": true,
     "types": [
       "vite/client",
       "vite-plugin-vue-component-preview/client"
